@@ -29,6 +29,12 @@ import org.springframework.security.saml.SAMLCredential;
 import org.springframework.security.saml.userdetails.SAMLUserDetailsService;
 import org.springframework.stereotype.Service;
 
+
+/**
+ * 
+ * @author cfrancescop
+ *
+ */
 @Service
 public class SAMLUserDetailsServiceImpl implements SAMLUserDetailsService {
 	

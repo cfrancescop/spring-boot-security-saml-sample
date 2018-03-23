@@ -30,6 +30,12 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 
 import com.vdenotaris.spring.boot.security.saml.web.stereotypes.CurrentUser;
 
+
+/**
+ * Handler that bind the @CurrentUser annotation with the Principal object.
+ * @author cfrancesco
+ *
+ */
 @Component
 public class CurrentUserHandlerMethodArgumentResolver implements
 		HandlerMethodArgumentResolver {

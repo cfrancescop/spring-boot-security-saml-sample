@@ -26,6 +26,12 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 import com.vdenotaris.spring.boot.security.saml.web.core.CurrentUserHandlerMethodArgumentResolver;
 
+
+/**
+ * MVC Basic Configuration
+ * @author cfrancescop
+ *
+ */
 @Configuration
 public class MvcConfig extends WebMvcConfigurerAdapter {
 

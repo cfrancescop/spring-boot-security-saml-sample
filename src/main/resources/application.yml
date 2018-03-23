@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - ssoCert # remove ssoCert if you are using a different saml2 configuration
+
+logging:
+  file: logs/file.log
+  level:
+    org:
+      opensaml: DEBUG
+      springframework:
+        security:
+          saml: DEBUG
+
+          
+          

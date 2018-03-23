@@ -20,6 +20,12 @@
 			<email>dev@vdenotaris.com</email>
 			<timezone>+1</timezone>
 		</developer>
+		<developer>
+			<id>cfrancescop</id>
+			<name>Francesco Pirrone</name>
+			<email>c.francesco.p@gmail.com</email>
+			<timezone>+1</timezone>
+		</developer>
 	</developers>
 	<contributors>
 		<contributor>
@@ -27,7 +33,10 @@
 		</contributor>
 		<contributor>
 			<name>Alexey Syrtsev</name>
-		</contributor>	
+		</contributor>
+		<contributor>
+			<name>Francesco Pirrone</name>
+		</contributor>
 	</contributors>	
 	
 	<licenses>

@@ -31,6 +31,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+
+/**
+ * Controller that display the list of aviable IDP.
+ * @author cfrancesco
+ *
+ */
 @Controller
 @RequestMapping("/saml")
 public class SSOController {

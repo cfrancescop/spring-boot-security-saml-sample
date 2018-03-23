@@ -23,6 +23,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.vdenotaris.spring.boot.security.saml.web.stereotypes.CurrentUser;
 
+
+/**
+ * Landing Controller, if the user has been authenticated by the identity provider,
+ * we can access the username provided.
+ * @author cfrancescop
+ *
+ */
 @Controller
 public class LandingController {
 
